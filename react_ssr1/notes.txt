@@ -1,0 +1,13 @@
+ - Client Side rendering - Data from a data source (API) is sent to the client and client renders the HTML
+ - Server Side rendering - HTML rendering is done on the server side and is sent to the client
+
+ Benefits of SSR (Isomorphic / Universal)
+  - Rendering large application / Applications expected to grow can use SSR as it will provide faster load times
+  - The browser on which the application is rendered depends on the hardware used. Older h/w might give a lower performance as compared to newer h/w. Using SSR the performance is controlled on the server.
+  - Improved SEO - Google sends its bots to index a site's page. The bots look for HTML but do not play well with JavaScript. SSR helps in this case
+
+Next.js
+ - Looks inside the pages directory and creates a route for every JS file
+
+Code Splitting
+ - Ability to split your code into smaller bundles for faster load times
